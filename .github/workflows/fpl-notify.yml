@@ -2,7 +2,7 @@ name: FPL Notify
 
 on:
   schedule:
-    - cron: "*/5 * * * *"   # รันทุก 5 นาที
+    - cron: "*/30 * * * *"   # รันทุก 5 นาที
   workflow_dispatch: {}      # กดรันมือได้
 
 jobs:
@@ -13,7 +13,7 @@ jobs:
     env:
       TIMEZONE_OFFSET_HOURS: "7"
       NOTIFY_OFFSET_SECONDS: "3600"   # แจ้งล่วงหน้า 1 ชม เดิม 3600
-      WINDOW_MINUTES: "5"
+      WINDOW_MINUTES: "30"
       MODE: "window" # window ปรับคืนตอนใช้จริง send-now
       MENTION_EVERYONE: "true"
       MENTION_TARGET: "<@279966568023326720>" # ฉันเอง
