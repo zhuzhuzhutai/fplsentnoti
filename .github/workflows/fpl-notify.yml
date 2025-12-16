@@ -14,7 +14,7 @@ jobs:
       TIMEZONE_OFFSET_HOURS: "7"
       NOTIFY_OFFSET_SECONDS: "120"   # แจ้งล่วงหน้า 1 ชม เดิม 3600
       WINDOW_MINUTES: "5"
-      MODE: "send-now " # window ปรับคืนตอนใช้จริง
+      MODE: "send-now" # window ปรับคืนตอนใช้จริง
       MENTION_EVERYONE: "true"
       MENTION_TARGET: ""
     steps:
