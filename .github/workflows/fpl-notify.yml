@@ -16,7 +16,7 @@ jobs:
       WINDOW_MINUTES: "30"
       MODE: "window" # window ปรับคืนตอนใช้จริง send-now
       MENTION_EVERYONE: "true"
-      MENTION_TARGET: "<@279966568023326720>" # ฉันเอง
+      MENTION_TARGET:  "<@279966568023326720> <@1188527783178141696>" # ฉันเอง 
     steps:
       - name: Checkout
         uses: actions/checkout@v4
